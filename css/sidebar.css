@@ -1,0 +1,65 @@
+.container-sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    z-index: 1;
+}
+.sidebar {
+    width: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 1);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+    word-wrap: break-word;
+}
+.active-participants > li, .message-type > li {
+    padding: 8px 8px 8px 32px;
+    font-size: 3.2vmax;
+    color: #212121;
+    display: block;
+    transition: 0.3s;
+    cursor: pointer;
+    position: relative;
+}
+.active-participants > li:hover, .message-type > li:hover {
+    color: #616161;
+}
+.checked{
+    color: rgba(0, 255, 0, 1);
+    font-weight: bolder;
+    position: absolute;
+    right: 2%;
+}
+.non-checked{
+    display: none;
+}
+
+.closebtn{
+    position: absolute;
+    top: 0;
+    right: 2%;
+    font-size: 4.5vmax;
+    margin-left: 50px;
+    color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+.sidebar-legends{
+    width: 100%;
+    position: relative;
+    padding: 7%;
+}
+.sidebar-legends > div{
+    width: 60%;
+    margin-left: 13%;
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 2.5vmax;
+    font-weight: bolder;
+}

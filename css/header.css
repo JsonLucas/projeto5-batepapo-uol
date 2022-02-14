@@ -1,0 +1,38 @@
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: rgba(255, 255, 255, 1);
+    position: fixed;
+}
+.header{
+    top: 0;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.container-logos{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.logo-header{
+    width: 100%;
+}
+.logo1 > div{
+    width: 70%;
+    height: 100%;
+}
+.logo1 > div > img{
+    width: 100%;
+    height: 100%;
+}
+.logo2 > span{
+    cursor: pointer;
+}
+.logo2{
+    font-weight: bolder;
+    font-size: 9vmax;
+}
+.logo2 > span{
+    position: absolute;
+    right: 2%;
+}

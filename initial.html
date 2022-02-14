@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+    <head>
+        <meta charset='UTF-8'>
+        <link rel='stylesheet' type='text/css' href='css/initial.css'>
+        <link rel='shortcut icon' href='image/logo2.png'>
+        <title>Bate-Papo Uol</title>
+    </head>
+    <body>
+        <main class='main-container'>
+            <section class='section-body'>
+                <div class='logo'>
+                    <div><img src='image/logo1.png'></div>
+                </div>
+                <div class='enter-username'>
+                    <div class='div-input'><!-- onkeypress='nameInChat();' -->
+                        <input type='text' onkeypress='pressEnterToSend();' data-identifier='enter-name' 
+                        name='username' placeholder='Digite seu nome'>
+                    </div>
+                    <div class='div-button'>
+                        <button data-identifier='start' class='btn' onclick='nameInChat();'>Entrar</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        <!--<script src='js/screens.js'></script>-->
+        <script src='js/server.js'></script>
+    </body>
+</html>
